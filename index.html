@@ -13,8 +13,10 @@
         <div>
           <img src="image/c4u full logo_2022 1.png" alt="" />
         </div>
-        <div
-          class="menuButton hidden lg:block lg:static absolute lg:min-h-fit min-h-[60hv] left-0 top-[9%] flex items-center px-5 bg-red-100 lg:bg-white w-full lg:w-fit p-4 mt-2 "
+
+        <div class="flex items-center gap-5">
+          <div
+          class=" hidden lg:block lg:static absolut lg:min-h-fit min-h-[60hv] left-0 top-[9%] flex items-center px-5 lg:bg-white w-full lg:w-fit p-4 mt-2"
         >
           <ul
             class="flex lg:flex-row flex-col lg:items-center lg:space-x-5 gap-4"
@@ -41,10 +43,10 @@
             </li>
           </ul>
         </div>
-        <div class="flex items-center gap-5">
           <button
             class="bg-[#F44335] me-5 py-2 px-4 text-white md:font-semibold text-[12px] md:text-lg rounded-md hover:bg-red-800 hover:scale-105 translate-x-1 transition-all duration-300 hover:animate-pulse"
           >
+        
             Register Interest
           </button>
           <svg
@@ -64,6 +66,34 @@
           </svg>
         </div>
       </nav>
+      <div
+        class="menuButton lg:hidden hidden absolut lg:min-h-fit min-h-[60hv] left-0 top-[9%] flex items-center px-5 bg-red-50 lg:bg-white w-full lg:w-fit p-4 mt-2"
+      >
+        <ul
+          class="flex lg:flex-row flex-col lg:items-center lg:space-x-5 gap-4"
+        >
+          <li
+            class="transition hover:scale-105 ms-2 hover:translate-y-1 hover:text-red-700"
+          >
+            <a href="#">Home</a>
+          </li>
+          <li
+            class="transition hover:scale-105 ms-2 hover:translate-y-1 hover:text-red-700"
+          >
+            <a href="#">About us</a>
+          </li>
+          <li
+            class="transition hover:scale-105 ms-2 hover:translate-y-1 hover:text-red-700"
+          >
+            <a href="#">Upskill</a>
+          </li>
+          <li
+            class="transition hover:scale-105 ms-2 hover:translate-y-1 hover:text-red-700"
+          >
+            <a href="#">Contact Us </a>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <!--This is hero section-->
@@ -100,8 +130,6 @@
         </div>
       </div>
     </div>
-         
-
 
     <!--this card section-->
 
@@ -152,11 +180,11 @@
     </div>
 
     <!--This is our Mission section-->
-
-    <div class="p-2 md:px-20 lg:px-44 bg-[#F5F5F5] flex gap-5">
-      <div class="flex flex-col justify-center md:px-5 border-r-2">
-        <h4 class="text-[#F44335] text-[12px] md:text-base">About us</h4>
-        <h2 class="text-base md:text-2xl md:font-semibold py-2 md:py-4">
+<section class="relative">
+    <div class="p-2 md:pt-14 md:px-20 lg:px-44 bg-[#F5F5F5] flex gap-10">
+      <div class="flex flex-col md:px-10 justify-center w-1/2">
+        <h4 class="text-[#F44335] text-[12px] md:text-2xl">About us</h4>
+        <h2 class="text-base md:text-3xl md:font-semibold py-2 md:py-4">
           Our Mission
         </h2>
 
@@ -188,7 +216,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="w-1/2">
         <img
           class="w-full object-cover md:px-5"
           src="image/Group 238902.png"
@@ -196,7 +224,62 @@
         />
       </div>
     </div>
-    
+
+    <!--This is our vision section-->
+
+    <div
+      class="p-2 md:p-20 md: pe-[10px]  bg-[#F5F5F5] flex items-center justify-center gap-10"
+    >
+      <div class="w-1/2">
+        <img class="w-full object-cover md:px-5" src="image/Right.png" alt="" />
+      </div>
+
+      <div class="flex flex-col w-1/2 justify-center md:px-10 px-2">
+        <h4 class="text-[#F44335] text-[12px] md:text-2xl">About us</h4>
+        <h2 class="text-base md:text-3xl md:font-semibold py-2 md:py-10">
+          Our Mission
+        </h2>
+
+        <p class="text-[14px] md:text-base pb-2 md:pb-5">
+          To create a personalised pathway for continuous learning and
+          transferrable skills development.
+        </p>
+
+        <div>
+          <button
+            class="flex items-center text-[#F44335] border border-[#F44335] border-2 rounded-lg px-2 md:px-4 py-1 md:py-2 hover:bg-gray-400 hover:scale-105 translate-x-1 transition-all duration-300 hover:animate-pulse"
+          >
+            Find out more
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-4"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="absolute h-full left-0 right-0 bottom-0">
+        
+      <div class="flex flex-col h-full items-center justify-center">
+        <div class="bg-green-500 w-[20px] h-[20px] rounded-full"></div>
+        <div class="bg-gray-500 w-[2px] h-[calc(50%_-_60px)]"></div>
+        <div class="bg-green-500 w-[20px] h-[20px] rounded-full"></div>
+        <div class="bg-gray-500 w-[2px] h-[calc(50%_-_40px)]"></div>
+        <div class="bg-green-500 w-[20px] h-[20px] rounded-full"></div>
+      </div>
+    </div>
+  </section>
 
     <script>
       // Toggle menu visibility
